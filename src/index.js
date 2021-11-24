@@ -11,7 +11,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 ReactDOM.render(
   <React.StrictMode>
 <Router>
-      <Head/>
+      
       <Switch>
         <Route exact path="/">
           <Home/>
@@ -22,7 +22,7 @@ ReactDOM.render(
         </Route>
 
       </Switch>
-      <Foot/>
+     
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
